@@ -1,0 +1,9 @@
+include ':app'
+rootProject.name='sensors'
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }  // ← ajouter si absent
+    }
+}
